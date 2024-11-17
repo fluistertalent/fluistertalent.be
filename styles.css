@@ -5,6 +5,8 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    position: relative;
+    min-height: 100vh;
 }
 
 .container {
@@ -19,6 +21,13 @@ body {
 header h1 {
     text-align: center;
     color: #2c3e50;
+}
+
+header .banner {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -45,4 +54,13 @@ address {
     font-style: normal;
     color: #555;
     margin-top: 10px;
+}
+
+.bottom-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: auto;
 }
