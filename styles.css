@@ -20,11 +20,36 @@ body {
     flex: 1;
 }
 
-header h1 {
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     text-align: center;
-    color: #2c3e50;
 }
 
+.header-icon {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    padding: 3px;
+}
+
+.multicolor-title {
+    text-align: center; /* Center the title */
+    font-size: 2.5rem; /* Adjust as necessary */
+}
+
+.multicolor-title .black {
+    color: black;
+}
+
+.multicolor-title .red {
+    color: red;
+}
+
+.multicolor-title .blue {
+    color: blue;
+}
 
 h2 {
     color: #3498db;
