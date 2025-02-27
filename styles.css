@@ -37,6 +37,7 @@ body {
 .multicolor-title {
     text-align: center; /* Center the title */
     font-size: 2.5rem; /* Adjust as necessary */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .multicolor-title .black {
